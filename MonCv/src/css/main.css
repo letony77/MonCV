@@ -1,0 +1,117 @@
+/* all */
+.heading-site{
+    text-align:center;
+    font-family:'Montserrat', sans-serif;
+    color:white;
+}
+
+body{
+    background: rgba(14, 14, 14, 0.945); 
+   
+}
+
+
+/* Header*/
+
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color:rgba(0, 0, 0, 0);
+    position: fixed;
+    top:0;
+    z-index: 999;
+}
+
+.header .header-logo{
+color: #FFFFFF;
+font-family:'Montserrat', sans-serif;
+float: left;
+margin-left : 30px;
+}
+
+.header .header-menu{
+    float: right;
+    margin-right: 30px;
+}
+
+.header .header-menu a{
+    margin-right: 15px;
+    color: white;
+}
+
+.header .header-menu a:hover{
+    color:#95a5a6;
+}
+
+/* Banner */
+
+.banner{
+    margin-top: -25px;
+}
+
+.banner .banner-image{
+    position:relative;
+}
+
+.banner .banner-content{
+    position:absolute;
+    width:100%;
+    text-align: center;
+    top: 30%;
+   
+    
+
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2{
+color: white;
+     
+}
+
+/* About */
+
+.about{
+    /* background-image: linear-gradient(black,rgba(14, 14, 14, 0.945)); */
+}
+.about .about-single-element .icon{
+font-size: 30px;
+text-align: center;
+}
+
+.about .about-single-element{
+    text-align:center;
+}
+
+.about .about-single-element p{
+    text-align: left;
+    margin-top: 20px;
+    color: rgb(104, 104, 104)
+}
+
+/* Footer */
+.footer{
+    background:rgba(14, 14, 14, 0.945)
+}
+.label{
+    color: whitesmoke;
+}
+.input{
+    background: rgb(104, 104, 104);
+    border-color: rgb(104, 104, 104);
+    color: whitesmoke;
+}
+
+.textarea{
+    background:rgb(104, 104, 104);
+    border-color: rgb(104, 104, 104);
+    color: whitesmoke
+}
+
+
+
+/* Reseaux sociaux */
+
